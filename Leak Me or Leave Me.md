@@ -39,7 +39,7 @@ LEAK ME OR LEAVE ME
 f7fc1ab0 1 f7f92410 25207825 78252078 20782520 25207825 78252078 20782520 25207825 78252078 20782520 25207825 78252078 20782520 25207825 78252078 2078
 2520 25207825 78252078 20782520 25207825 78252078 
 ```
-The last addresses are the hex of "%x " input we provided. I noticed the seventh address immediately and i guess it is the "FL4G" text. I used python to confirm.
+The last addresses are the hex of "%x " input we provided. I noticed the seventh address 47344c46 immediately and guess it is the "FL4G" text. I used python to confirm.
 
 ```python
 Python 3.7.5 (default, Oct 27 2019, 15:43:29) 

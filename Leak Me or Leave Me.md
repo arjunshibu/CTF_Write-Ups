@@ -30,7 +30,7 @@ Okay it's working. So I analyzed the binary with radare2. Disassembly of the mai
 0x08048625      e866feffff     call sym.imp.fopen          ; file*fopen(const char *filename, const char *mode)
 <----------------------------------------------------SNIP----------------------------------------------------->
 ```
-So i guess it opens the flag.txt file. So the file contents must be placed on the stack. Leaking multiple address might leak it's content
+I guess it opens the flag.txt file. So the file contents must be placed on the stack. Leaking multiple address might leak it's content
 
 ```
 # python -c 'print "%x " * 50' | ./leak                                                                                                               

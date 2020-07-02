@@ -1,1 +1,0 @@
-picoCTF{fake_flag}
